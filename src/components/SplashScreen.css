@@ -1,0 +1,33 @@
+.splash-screen {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .splash-screen .loading-dot {
+    font-size: 100px;
+    margin-top: -80px;
+    position: relative;
+    animation: ease-in-out infinite alternate;
+    animation-name: run;
+    animation-duration: 1.2s;
+  }
+  
+  @keyframes run {
+    0% {
+      left: -90px;
+      color: #eee;
+    }
+    50% {
+      color: #666;
+    }
+    100% {
+      left: 90px;
+      color: #eee;
+    }
+  }

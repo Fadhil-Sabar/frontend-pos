@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.background-image {
+  /* background-image: url('../public/assets/images/wallpaper.jpg'); */
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
